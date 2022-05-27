@@ -41,7 +41,7 @@ class BannerRepository extends Repository {
             ->select(
                 [
                     'companies.*', \DB::raw( 'IFNULL(IF(companies.company_logo REGEXP "https?", companies.company_logo, CONCAT("' . url( '/' ) . '",companies.company_logo)), CONCAT("' . url( '/' ) . '","/assets/img/default.png")) AS company_logo' ),
-                    'banners.*', \DB::raw( 'IFNULL(IF(banners.banner_image REGEXP "https?", banners.banner_image, CONCAT("' . url( '/public/' ) . '",banners.banner_image)), CONCAT("' . url( '/' ) . '","/assets/img/default.png")) AS banner_image' ),
+                    'banners.*', \DB::raw( 'IFNULL(IF(banners.banner_image REGEXP "https?", banners.banner_image, CONCAT("' . url( '/' ) . '",banners.banner_image)), CONCAT("' . url( '/' ) . '","/assets/img/default.png")) AS banner_image' ),
                 ]
             )->orderBy( 'banners.id', 'desc' );
 

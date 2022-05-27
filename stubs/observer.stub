@@ -1,0 +1,77 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+use App\Services\Backend\User\UserService;
+
+class {{ class }}
+{
+    /**
+     * @var UserService
+     */
+    private $userService;
+
+    /**
+     * @param UserService $userService
+     */
+    public function __construct(UserService $userService)
+    {
+        $this->userService = $userService;
+    }
+
+    /**
+     * Handle the {{ model }} "created" event.
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return void
+     */
+    public function created({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "updated" event.
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return void
+     */
+    public function updated({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "deleted" event.
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return void
+     */
+    public function deleted({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "restored" event.
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return void
+     */
+    public function restored({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "force deleted" event.
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return void
+     */
+    public function forceDeleted({{ model }} ${{ modelVariable }})
+    {
+        //
+    }
+}

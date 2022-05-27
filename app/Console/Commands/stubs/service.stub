@@ -1,0 +1,109 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Repositories\repositoryNamespaceRepository;
+use Exception;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Support\Facades\Log;
+use Utility;
+
+/**
+ * Class {{ class }}
+ * @package {{ namespace }}
+ */
+class {{ class }}
+{
+    /**
+     * @var repositoryNameRepository
+     */
+    private $repositoryVariableRepository;
+
+    /**
+     * {{ class }} constructor.
+     * @param repositoryNameRepository $repositoryVariableRepository
+     */
+    public function __construct(repositoryNameRepository $repositoryVariableRepository)
+    {
+        $this->repositoryVariableRepository = $repositoryVariableRepository;
+    }
+
+    /**
+     * Get all repositoryNames
+     *
+     * @param array $filters
+     *
+     * @return LengthAwarePaginator
+     */
+    public function getAllrepositoryName(array $filters): LengthAwarePaginator
+    {
+        $with = ['category', 'keywords'];
+
+        return $this->repositoryVariableRepository
+            ->getrepositoryNameWith($with, $filters)
+            ->paginate(\Utility::$displayRecordPerPage);
+    }
+
+    /**
+     * @param array $input
+     *
+     * @return mixed
+     */
+    public function storerepositoryName(array $input)
+    {
+        try {
+            return $this->repositoryVariableRepository->create($input);
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+        }
+        return false;
+    }
+
+    /**
+     * @param $input
+     * @param $id
+     * @return bool|mixed
+     */
+    public function updaterepositoryName($input, $id)
+    {
+        try {
+            $repositoryVariable = $this->repositoryVariableRepository->find($id);
+            $this->repositoryVariableRepository->update($input, $id);
+            return $repositoryVariable;
+        } catch (ModelNotFoundException $e) {
+            Log::error('repositoryName not found');
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+        }
+        return false;
+    }
+
+    /**
+     * @param $id
+     *
+     * @return mixed
+     */
+    public function showrepositoryNameByID($id)
+    {
+        return $this->repositoryVariableRepository->find($id);
+    }
+
+    /**
+     * @param $input
+     * @return mixed
+     */
+    public function ShowAllrepositoryName($input)
+    {
+        return $this->repositoryVariableRepository->repositoryNameFilterData($input);
+    }
+
+    /**
+     * @param $id
+     * @return mixed
+     */
+    public function deleterepositoryName($id)
+    {
+        return $this->repositoryVariableRepository->delete($id);
+    }
+}

@@ -1,0 +1,82 @@
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Result list</h1>
+
+        <form class=" d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0" onsubmit="return false;">
+            <div class="input-group">
+                <input aria-describedby="btnNavbarSearch" aria-label="Search for..."
+                       autocomplete=off/ class="form-control"
+                       id="search" placeholder="Search for..." type="text">
+                <button class="btn btn-primary" id="btnNavbarSearch" onclick="getResultList();" type="button"><i
+                        class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <br><br>
+        <div class="row admin-only mb-3">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="group_id">Select Group</label>
+                    <select id="group_id" class="form-control custom-select" required>
+                        <option value='0'>All</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="fromDate">From Date</label>
+                    <input id="fromDate" class="form-control  single-datetime-picker" type="text">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="toDate">To Date</label>
+                    <input id="toDate" class="form-control  single-datetime-picker" type="text">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary mt-4" onClick="generateResultReport();" type='button'>Download</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="table-responsive" style="min-height:250px;">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Full Name</th>
+                            <th>Course Name</th>
+                            <th>Quiz Name</th>
+                            <th>Result</th>
+                            <th>Obtained %</th>
+                            <th>Action</th>
+                        </tr>
+
+                        </thead>
+                        <tbody id="rowContent">
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <button class="btn btn-sm btn-info" id="backBtn" onClick="getResultList('n');">Back</button>
+                <button class="btn btn-sm btn-info" id="nextBtn" onClick="getResultList('p');">Next</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

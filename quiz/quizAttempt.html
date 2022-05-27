@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/custom.css?q=sdsdsd" rel="stylesheet"/>
+
+    <link href="css/quizAttempt.css?q=ssdsdd" rel="stylesheet"/>
+    <script crossorigin="anonymous"
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+    <title id="title">Quiz Attempt</title>
+</head>
+<body>
+<form action="#" id="quizForm" method="post">
+
+    <div class="container-fluid" id="main-area-quiz" style="display:none;">
+        <div class="row header-bar">
+            <div class="col-lg-8 col-sm-6 col-6">
+                <div id="quizName"></div>
+                <div class="connected" id="connectionStatus">Connected with internet</div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-6">
+                Time left: <span id="timer"></span>
+                <div class="answerSavedStatusSuccess" id="answerSavedStatusSuccess">Answers saved</div>
+                <div class="answerSavedStatusFailed" id="answerSavedStatusFailed">Unable to save</div>
+            </div>
+        </div>
+        <div class="row content">
+
+            <div class="col-lg-9 col-sm-12 col-12" id="question-container">
+                <div class="question-body" id="qn-QNO">
+                    <input class='ind_time' id='ind_time-QNO' name='ind_time-QNO' type='hidden' value='0'>
+                    <input class='question_type' id='question_type-QNO' name='question_type-QNO' type='hidden'
+                           value='QTYP'>
+                    <div class="question-title">QQNO) <span class='ind-timer' id='ind-timer-QNO'>0</span></div>
+                    <div class="question">
+                        QUESTION
+                    </div>
+                    <div class="player mb-5">
+                        AUDIO_PLAYER
+                    </div>
+                    <div class="options">
+                        OPTION
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-sm-12 col-12 mobile-right-bar">
+                <i class="fa fa-times fa-2x right-bar-close-btn" onclick="toggleRightBar();"></i>
+                <label>Questions</label>
+                <div class="question-number-holder">
+
+                </div>
+
+                <div class="qbtn-label">
+                    <label>Question Label</label>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <button class='qbtn notvisited' type='button'></button>
+                            </td>
+                            <td>Not Visited</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class='qbtn answered' type='button'></button>
+                            </td>
+                            <td>Answered</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class='qbtn notanswered' type='button'></button>
+                            </td>
+                            <td>Not Answered/Skipped</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class='qbtn reviewlater' type='button'></button>
+                            </td>
+                            <td>Marked for review later</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mobile-right-bar-btn" onclick="toggleRightBar();">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="row footer-bar">
+            <div class="col-lg-12 col-sm-12 col-12">
+
+                <button class="btn btn-sm btn-primary" id="backQBtn" onClick="backQ();" type="button">Back</button>
+                <button class="btn btn-sm btn-warning review-later" onClick="reviewLater();" type="button">Review
+                    Later
+                </button>
+                <button class="btn btn-sm btn-primary" id="nextQBtn" onClick="nextQ();" style="float:right;"
+                        type="button">Save & Next
+                </button>
+                <button class="btn btn-sm btn-primary" id="saveQBtn" onClick="saveQ();" style="float:right;display:none"
+                        type="button">Save
+                </button>
+                <button class="btn btn-sm btn-danger" onClick="submitQuizWarning();saveQL();" style="float:right;margin-right:10px;"
+                        type="button">Submit Quiz
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</form>
+
+
+<div class="modal" id="submitWarning" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Warning!</h5>
+
+            </div>
+            <div class="modal-body">
+                <p>Do you really want to submit quiz?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onClick="submitQuiz();" type="button" type="button">Yes</button>
+                <button class="btn btn-secondary" data-dismiss="modal" onClick="closeSubmitQuiz();" type="button">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="flashMessage alert alert-warning"></div>
+<div class="spinner-border  text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+</div>
+</body>
+<script crossorigin="anonymous" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script crossorigin="anonymous"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js?q=dsds"></script>
+<script src="js/quizAttempt.js?q=fdfddfdcdvdff"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        type="text/javascript"></script>
+</html>

@@ -1,0 +1,66 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Models\modelNamespace;
+use App\Repositories\Repository;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\DB;
+/**
+ * Class {{ class }}
+ * @package {{ namespace }}
+ */
+class {{ class }} extends Repository
+{
+    /**
+     * Specify Model class name
+     *
+     * @return mixed
+     */
+    public function model()
+    {
+        return modelName::class;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function allmodelNameForDropdown()
+    {
+        return $this->model->get(['name', 'id']);
+    }
+
+        /**
+         * Index and user input based list
+         *
+         * @param array $filters
+         * @return Builder
+         */
+        public function getmodelNameWith(array $filters): Builder
+        {
+            $query = $this->model->sortable()->newQuery();
+
+            if (!empty($filters)) {
+
+                //search
+                if (!empty($filters['search_text'])) {
+                    $query->where('book_category_name', 'like', "%{$filters['search_text']}%");
+                    $query->orWhere('book_category_status', 'like', "%{$filters['search_text']}%");
+                    $query->orWhere('book_category_id', 'like', "%{$filters['search_text']}%");
+                }
+
+                //name
+                if (!empty($filters['name'])) {
+                    $query->where('book_category_name', 'like', "%{$filters['name']}%");
+                }
+
+                //date range
+                if (!empty($filters['start_date']) || !empty($filters['end_date'])) {
+                    $query->whereBetween('created_at', [$filters['start_date'], $filters['end_date']]);
+                }
+            }
+
+            return $query;
+        }
+}
+

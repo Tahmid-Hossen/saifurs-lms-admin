@@ -1,0 +1,78 @@
+# PHP as Linux Web App on Azure
+# Build, package and deploy your PHP project to Azure Linux Web App.
+# Add steps that run tests and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/php
+
+trigger:
+- master
+
+variables:
+  # Azure Resource Manager connection created during pipeline creation
+  azureSubscription: 'cb100d55-748e-4713-aaca-1ed2a1888284'
+
+  # Web app name
+  webAppName: 'backend-lms'
+
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+
+  # Environment name
+  environmentName: 'backend-lms'
+
+  # Root folder under which your composer.json file is available.
+  rootFolder: $(System.DefaultWorkingDirectory)
+
+stages:
+- stage: Build
+  displayName: Build stage
+  variables:
+    phpVersion: '7.4'
+  jobs:
+  - job: BuildJob
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - script: |
+        sudo update-alternatives --set php /usr/bin/php$(phpVersion)
+        sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
+        sudo update-alternatives --set phpdbg /usr/bin/phpdbg$(phpVersion)
+        sudo update-alternatives --set php-cgi /usr/bin/php-cgi$(phpVersion)
+        sudo update-alternatives --set phar.phar /usr/bin/phar.phar$(phpVersion)
+        php -version
+      workingDirectory: $(rootFolder)
+      displayName: 'Use PHP version $(phpVersion)'
+
+    - script: |
+        cd ../
+        sudo chmod -R 777 $(rootFolder)
+        cd $(rootFolder)
+        sudo cp .env.azure .env
+        sudo cp .env.quiz public/quiz/api/.env
+        sudo cp .htaccess.example .htaccess
+        sudo cp index.php.example index.php
+        sudo cp config/app.php.example config/app.php
+        sudo cp config/database.php.example config/database.php
+        sudo cp config/notification.php.example config/notification.php
+        sudo cp config/short-message-service.php.example config/short-message-service.php
+        sudo cp config/sslcommerz.php.example config/sslcommerz.php
+        sudo cp public/.htaccess.example public/.htaccess
+        sudo cp public/index.php.example public/index.php
+        sudo cp public/quiz/js/custom.js.example public/quiz/js/custom.js
+        sudo composer install --no-interaction --prefer-dist
+        sudo composer dump-autoload
+        sudo php artisan key:generate
+      workingDirectory: $(rootFolder)
+      displayName: 'Composer install'
+
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(rootFolder)'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+
+    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      displayName: 'Upload package'
+      artifact: drop

@@ -1,0 +1,436 @@
+[27-Jan-2022 23:13:31 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:35 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:36 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:37 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:38 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[27-Jan-2022 23:13:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdb' in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#1 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'saifursc_saifur...', 'Slms@2022', Array)
+#2 /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/saifursc/public_html/backend/backend/vendor/laravel/framewor in /home/saifursc/public_html/backend/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[01-Mar-2022 11:14:31 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Mar-2022 15:33:01 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Mar-2022 15:33:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Mar-2022 15:33:04 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Mar-2022 15:33:06 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Mar-2022 15:33:06 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[15-Mar-2022 12:37:56 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[29-Mar-2022 11:09:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[29-Mar-2022 11:09:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[29-Mar-2022 11:09:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:45 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:46 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:06:47 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:39 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[24-Apr-2022 16:07:41 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'saifursc_saifursc'@'localhost' to database 'saifursc_saifurslmsdev' in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connecto in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-May-2022 12:28:49 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-May-2022 12:28:49 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-May-2022 12:28:49 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:48 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[10-May-2022 11:30:52 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[18-May-2022 13:54:02 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[18-May-2022 13:54:13 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[18-May-2022 13:54:13 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[18-May-2022 13:54:13 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#1 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'saifursc_saifur...', 'W8+sXNsmxk$,', Array)
+#2 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/saifursc/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
